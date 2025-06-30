@@ -1,0 +1,28 @@
+.contenedor_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  padding: 10px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.contenedor_a {
+  display: flex;
+  gap: 25px;
+}
+
+.a {
+  text-decoration: none;
+    color: white;
+    font-size:larger;
+}
+
+.a:hover {
+  color: #ffd700;
+}
