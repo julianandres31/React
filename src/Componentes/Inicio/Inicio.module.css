@@ -1,7 +1,7 @@
 .contenedor {
   background-color: #1e1e1e;
   color: white;
-  height: 80vh;
+  height: 76.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,11 +42,11 @@
 
 .centro h1 {
   font-size: 28px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .centro p {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .buscador {
@@ -69,5 +69,6 @@
   background: rgb(100, 100, 100);
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: auto;
 }

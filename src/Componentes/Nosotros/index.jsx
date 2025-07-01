@@ -20,6 +20,7 @@ const Nosotros = () => {
         <li>Siempre aprendiendo</li>
       </ul>
     </div>
+
   );
 };
 

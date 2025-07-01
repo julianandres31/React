@@ -13,13 +13,13 @@ const Footer = () => {
         <FaYoutube />
       </div>
       <ul className={styles.footerLinks}>
-        <li>Home</li>
+        <li>Home </li>
         <li>Noticias</li>
         <li>Servicios</li>
         <li>Nosotros</li>
         <li>Contactanos</li>
       </ul>
-      <p className={styles.copy}>Copyright ©2022; Designed by FAHEEM</p>
+      <p className={styles.copy}>Copyright @2025; Designed by ENTERTAIMENT</p>
     </footer>
   );
 };

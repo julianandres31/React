@@ -1,40 +1,14 @@
 .contenedor {
   background-color: #1e1e1e;
   color: white;
-  height: 80vh;
+  height: 76.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
 
-.lateral {
-  position: absolute;
-  left: 20px;
-  top: 80px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
-.recomendaciones {
-  background-color: #2e2e2e;
-  padding: 12px;
-  border-radius: 6px;
-  font-size: 14px;
-  max-width: 220px;
-}
-
-.historial {
-  background-color: #ccc;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
 
 .registerBox {
   background-color: #11161c;
@@ -43,6 +17,7 @@
   box-shadow: 0 0 10px #000;
   width: 320px;
   text-align: center;
+  
 }
 
 .registerBox h2 {
@@ -70,6 +45,7 @@ button[type="submit"] {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  margin: auto;
 }
 
 .inicioSesion {

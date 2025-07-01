@@ -7,18 +7,6 @@ import { Link } from "react-router-dom";
 function Register() {
   return (
     <section className={style.contenedor}>
-      {/* Lateral izquierdo */}
-      <div className={style.lateral}>
-        <div className={style.recomendaciones}>
-          <strong>RECOMENDACIONES</strong>
-          <p>Para usar el buscador escribe palabras clave como: acción, miedo, +18, disney</p>
-        </div>
-        <button className={style.historial}>
-          <FaHistory /> Ver Historial
-        </button>
-      </div>
-
-      {/* Formulario de registro */}
       <div className={style.registerBox}>
         <h2>Registrate</h2>
         <form>
