@@ -3,7 +3,7 @@ import styles from './Nosotros.module.css';
 
 const Nosotros = () => {
   return (
-    <section className={styles.nosotros}>
+    <div className={styles.nosotros}>
       <h2>Nosotros</h2>
       <p>
         Somos una página web dedicada a la recomendación de entretenimiento según la búsqueda que quiera el cliente.
@@ -19,7 +19,7 @@ const Nosotros = () => {
         <li>Enfoque en películas y series</li>
         <li>Siempre aprendiendo</li>
       </ul>
-    </section>
+    </div>
   );
 };
 
