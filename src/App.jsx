@@ -4,12 +4,12 @@ import { Routes, Route } from "react-router-dom";
 
 import Nav from "./Componentes/Nav";
 import Footer from "./Componentes/Footer";
-import Contacto from "./Componentes/Contacto";
-import Nosotros from "./Componentes/Nosotros";
+import Contacto from "./Paginas/P_Contactanos";
+import Nosotros from "./Paginas/P_Nosotros";
 
-import Inicio from "./Componentes/Inicio";
-import Login from "./Componentes/Login";
-import Register from "./Componentes/Register";
+import Inicio from "./Paginas/P_Inicio";
+import Login from "./Paginas/P_Login";
+import Register from "./Paginas/P_Register";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Nav />
       <main className="mainContent">
         <Routes>
+          <Route path="/" element={<Inicio />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
