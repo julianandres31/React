@@ -1,12 +1,18 @@
-import React from "react";
-import "./App.css";
-import Nav from "./Componentes/Nav";
+import './App.css';
+import Nav from './Componentes/Nav';
+import Footer from './Componentes/Footer';
+import Contacto from './Componentes/Contacto';
+import Nosotros from './Componentes/Nosotros';
 
 function App() {
   return (
-    <div>
+    <div className="appContainer">
       <Nav />
-      <h1>aaaaaaaaa</h1>
+      <main className="mainContent">
+        <h1>aaaaaaaaaa</h1>
+        {/* Aquí iría el contenido de cada página */}
+      </main>
+      <Footer />
     </div>
   );
 }
