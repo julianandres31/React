@@ -1,0 +1,83 @@
+.contenedor {
+  background-color: #1e1e1e;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.lateral {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recomendaciones {
+  background-color: #2e2e2e;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  max-width: 220px;
+}
+
+.historial {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.loginBox {
+  background-color: #11161c;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+  width: 300px;
+  text-align: center;
+}
+
+.loginBox h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #0a84ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.registro {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.registro a {
+  color: #0a84ff;
+  text-decoration: none;
+}
