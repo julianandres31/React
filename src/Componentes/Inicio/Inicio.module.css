@@ -52,6 +52,7 @@
 .buscador {
   display: flex;
   background-color: white;
+  
   border-radius: 999px;
   padding: 5px 10px;
   align-items: center;
@@ -59,6 +60,7 @@
 
 .buscador input {
   border: none;
+  color: black;
   outline: none;
   background: transparent;
   padding: 6px;
@@ -66,7 +68,7 @@
 }
 
 .buscador button {
-    background-color: #0a84ff;
+  background-color: #0a84ff;
   color: white;
   font-weight: bold;
   border: none;

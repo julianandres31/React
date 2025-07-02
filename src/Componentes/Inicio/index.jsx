@@ -21,7 +21,8 @@ function Inicio() {
           </p>
         </div>
         <button className={style.historial}>
-          <FaHistory /> ver Historial
+          <FaHistory /> 
+          <link className= {style.a} to= "/Historial"> Historial</link>
         </button>
       </div>
 

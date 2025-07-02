@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Footer.module.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaGooglePlusG, FaYoutube } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,11 +14,11 @@ const Footer = () => {
         <FaYoutube />
       </div>
       <ul className={styles.footerLinks}>
-        <li>Home </li>
-        <li>Noticias</li>
-        <li>Servicios</li>
-        <li>Nosotros</li>
-        <li>Contactanos</li>
+        <Link to="/Inicio"> Home</Link>
+        <Link to=""> Noticias</Link>
+        <Link to=""> Membresia</Link>
+        <Link to="/Nosotros"> Nosotros</Link>
+        <Link to="/Contactanos"> Contactanos</Link>
       </ul>
       <p className={styles.copy}>Copyright @2025; Designed by ENTERTAIMENT</p>
     </footer>
