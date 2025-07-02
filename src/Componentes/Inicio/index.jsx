@@ -10,6 +10,10 @@ function Inicio() {
   const manejarClick = () => {
     navegar("/peliculas"); 
   };
+  const guiaClick = () => {
+    navegar("/guia de uso"); 
+  };
+
 
   return (
     <section className={style.contenedor}>
@@ -17,8 +21,11 @@ function Inicio() {
         <div className={style.recomendaciones}>
           <strong>RECOMENDACIONES</strong>
           <p>
-            Para usar el buscador escribe palabras clave como: acción, miedo, +18, disney
+            Para usar el buscador escribe palabras clave como: acción, miedo. Para saber mejor el funcionamiento consulta "Guia De Uso"
           </p>
+        <button onClick={guiaClick}>
+            Guia De Uso
+          </button>
         </div>
         <button className={style.historial}>
           <FaHistory /> 
@@ -27,7 +34,7 @@ function Inicio() {
       </div>
 
       <div className={style.centro}>
-        <h1>Entretainment.ia</h1>
+        <h1>Entretainment.net</h1>
         <p>Chat Español</p>
         <div className={style.buscador}>
           <input type="text" placeholder="Escribe aquí" />

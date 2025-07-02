@@ -24,6 +24,10 @@
   font-size: 14px;
   max-width: 220px;
 }
+.recomendaciones button {
+  margin-top: 10%;
+  margin-left: 45%;
+}
 
 .historial {
   background-color: #ccc;

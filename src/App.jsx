@@ -11,6 +11,8 @@ import Inicio from "./Paginas/P_Inicio";
 import Login from "./Paginas/P_Login";
 import Register from "./Paginas/P_Register";
 import Busqueda from "./Paginas/B_Buscar";
+import Guia_uso from "./Paginas/P_Guia_de_uso";
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path="/contactanos" element={<Contacto />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/peliculas" element={<Busqueda />} />
+          <Route path="/guia de uso" element={<Guia_uso />} />
         </Routes>
       </main>
       <Footer />
