@@ -1,29 +1,28 @@
 .container {
   max-width: 700px;
   margin: 40px auto;
-  padding: 0 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px 40px ;
+
+  background-color: #11161c;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
 }
 
 .title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #222;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  gap: 30px; /* espacio entre cada card */
+  gap: 30px; 
 }
 
 .card {
-  background-color: white;
+  background-color:#444;
+  box-shadow: 0 0 10px #2b2a2a;
   padding: 25px 30px;
   border-radius: 6px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.1);
@@ -32,14 +31,15 @@
 .subtitle {
   margin-bottom: 15px;
   font-size: 1.5rem;
-  color: #005f73;
-  border-bottom: 2px solid #0a9396;
+  color: #ffffff;
+  border-bottom: 2px solid #ff0000;
   padding-bottom: 8px;
 }
 
 .text {
+  margin: 1rem;
   font-size: 1.1rem;
   line-height: 1.6;
-  white-space: pre-line; /* para respetar saltos de línea */
-  color: #444;
+  white-space: pre-line; 
+  color: #ffffff;
 }

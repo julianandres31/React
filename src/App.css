@@ -8,9 +8,9 @@ body {
 .appContainer {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Altura total de la pantalla */
+  min-height: 100vh; 
 }
 
 .mainContent {
-  flex: 1; /* Ocupar todo el espacio restante entre header y footer */
+  flex: 1; 
 }
