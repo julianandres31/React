@@ -11,6 +11,7 @@ import Inicio from "./Paginas/P_Inicio";
 import Login from "./Paginas/P_Login";
 import Register from "./Paginas/P_Register";
 import Busqueda from "./Paginas/B_Buscar";
+import P_Historial from "./Paginas/P_Historial";
 import Guia_uso from "./Paginas/P_Guia_de_uso";
 import DetallePelicula from "./Componentes/DetallePelicula";
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contactanos" element={<Contacto />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/peliculas" element={<Busqueda />} />
+          <Route path="/historial" element={<P_Historial />} />
           <Route path="/guia de uso" element={<Guia_uso />} />
           <Route path="/detalle-pelicula" element={<DetallePelicula />} />
         </Routes>

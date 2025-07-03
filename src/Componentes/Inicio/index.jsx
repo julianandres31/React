@@ -2,20 +2,22 @@ import React from "react";
 import style from "./Inicio.module.css";
 import { FiSend } from "react-icons/fi";
 import { FaHistory } from "react-icons/fa";
-import { useNavigate, Link } from "react-router-dom";
-
-
+import { useNavigate } from "react-router-dom"; 
 
 function Inicio() {
-  const navegar = useNavigate(); 
+  const navegar = useNavigate();
 
   const manejarClick = () => {
     navegar("/peliculas"); 
   };
+
   const guiaClick = () => {
-    navegar("/guia de uso"); 
+    navegar("/guia-de-uso"); 
   };
 
+  const irAHistorial = () => {
+    navegar("/historial");
+  };
 
   return (
     <section className={style.contenedor}>
@@ -23,15 +25,14 @@ function Inicio() {
         <div className={style.recomendaciones}>
           <strong>RECOMENDACIONES</strong>
           <p>
-            Para usar el buscador escribe palabras clave como: acción, miedo. Para saber mejor el funcionamiento consulta "Guia De Uso"
+            Para usar el buscador escribe palabras clave como: acción, miedo, +18,
+            Disney. Para saber mejor el funcionamiento consulta "Guía De Uso".
           </p>
-        <button onClick={guiaClick}>
-            Guia De Uso
-          </button>
+          <button onClick={guiaClick}>Guía De Uso</button>
         </div>
         <button className={style.historial}>
           <FaHistory /> 
-          <Link className= {style.a} to= "/Historial"> Historial</Link>
+          <link className= {style.a} to= "/Historial"> Historial</link>
         </button>
       </div>
 
@@ -50,4 +51,3 @@ function Inicio() {
 }
 
 export default Inicio;
-
