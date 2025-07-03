@@ -37,7 +37,7 @@ function Formulario() {
           <input type="text" name="cedula" required onChange={manejarCambio} />
         </label>
 
-        <label>Tarjeta de crédito:
+        <label>Tarjeta :
           <input type="text" name="tarjeta" required maxLength="16" onChange={manejarCambio} />
         </label>
 

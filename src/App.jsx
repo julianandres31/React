@@ -15,6 +15,7 @@ import P_Historial from "./Paginas/P_Historial";
 import Guia_uso from "./Paginas/P_Guia_de_uso";
 import DetallePelicula from "./Componentes/DetallePelicula";
 import Formulario from "./paginas/P_Formulario";
+import Membresia from "./Paginas/P_Membresia";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/peliculas" element={<Busqueda />} />
           <Route path="/historial" element={<P_Historial />} />
           <Route path="/guia-de-uso" element={<Guia_uso />} />
+          <Route path="/Membresia" element={<Membresia />} />
           <Route path="/detalle-pelicula" element={<DetallePelicula />} />
           <Route path="/formulario" element={<Formulario />} />
         </Routes>
