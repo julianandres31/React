@@ -26,7 +26,7 @@
 }
 .recomendaciones button {
   margin-top: 10%;
-  margin-left: 45%;
+  margin-left: auto;
 }
 
 .historial {
@@ -54,10 +54,10 @@
 }
 
 .buscador {
+  width: auto;
   display: flex;
   background-color: white;
-  
-  border-radius: 999px;
+  border-radius: 8px;
   padding: 5px 10px;
   align-items: center;
 }
@@ -79,4 +79,3 @@
   border-radius: 35%;
   cursor: pointer;
 }
-
