@@ -16,7 +16,7 @@ const Footer = () => {
       <ul className={styles.footerLinks}>
         <Link to="/Inicio"> Home</Link>
         <Link to="/"> Noticias</Link>
-        <Link to="/"> Membresia</Link>
+        <Link to="/ "> Membresia</Link>
         <Link to="/Nosotros"> Nosotros</Link>
         <Link to="/Contactanos"> Contactanos</Link>
       </ul>
