@@ -12,6 +12,7 @@ import Login from "./Paginas/P_Login";
 import Register from "./Paginas/P_Register";
 import Busqueda from "./Paginas/B_Buscar";
 import Guia_uso from "./Paginas/P_Guia_de_uso";
+import DetallePelicula from "./Componentes/DetallePelicula";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/peliculas" element={<Busqueda />} />
           <Route path="/guia de uso" element={<Guia_uso />} />
+          <Route path="/detalle-pelicula" element={<DetallePelicula />} />
         </Routes>
       </main>
       <Footer />
