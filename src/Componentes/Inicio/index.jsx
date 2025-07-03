@@ -3,6 +3,7 @@ import style from "./Inicio.module.css";
 import { FiSend } from "react-icons/fi";
 import { FaHistory } from "react-icons/fa";
 import { useNavigate } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 function Inicio() {
   const navegar = useNavigate();
@@ -32,7 +33,7 @@ function Inicio() {
         </div>
         <button className={style.historial}>
           <FaHistory /> 
-          <link className= {style.a} to= "/Historial"> Historial</link>
+          <Link className= {style.a} to= "/Historial"> Historial</Link>
         </button>
       </div>
 

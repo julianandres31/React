@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Historial.module.css";
+import { Link } from "react-router-dom";
 
 const datosFicticios = [
   {
@@ -36,7 +37,7 @@ function Historial() {
             </div>
             <div className={style.detalle}>
               <p>{item.fecha}</p>
-              <span className={style.vermas}>--&gt; Ver más</span>
+              <Link className={style.vermas} to="/detalle-pelicula">--- Ver más ---</Link>
             </div>
           </div>
         ))}

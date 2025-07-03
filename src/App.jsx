@@ -31,7 +31,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/peliculas" element={<Busqueda />} />
           <Route path="/historial" element={<P_Historial />} />
-          <Route path="/guia de uso" element={<Guia_uso />} />
+          <Route path="/guia-de-uso" element={<Guia_uso />} />
           <Route path="/detalle-pelicula" element={<DetallePelicula />} />
         </Routes>
       </main>
