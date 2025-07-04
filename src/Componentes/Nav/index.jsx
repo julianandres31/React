@@ -8,6 +8,7 @@ function Nav() {
       <img src="/logo.png" alt="Logo" className={style.logo} />
       <nav className={style.contenedor_a}>
         <Link className={style.a} to="/inicio">Inicio</Link>
+        <Link className={style.a} to="/membresia">Membresia</Link>
         <Link className={style.a} to="/contactanos">Contactanos</Link>
         <Link className={style.a} to="/nosotros">Nosotros</Link>
         <Link className={style.a} to="/login">Login</Link>

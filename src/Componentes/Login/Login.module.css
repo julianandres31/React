@@ -23,15 +23,8 @@
 
 form {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-input {
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  outline: none;
+  align-items: center;
+  justify-content: center;
 }
 
 button[type="submit"] {

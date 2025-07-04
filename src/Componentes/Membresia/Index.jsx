@@ -20,7 +20,7 @@ const Membresia = () => {
             state={{ nombre: 'FAN', precio: 'COP 12.900', duracion: '1 mes' }}
             className={styles.boton}
           >
-            Comprar
+            --- Comprar ---
           </Link>
 
         </div>
@@ -36,7 +36,7 @@ const Membresia = () => {
             state={{ nombre: 'FAN', precio: 'COP 12.900', duracion: '1 mes' }}
             className={styles.boton}
           >
-            Comprar
+            --- Comprar ---
           </Link>
 
         </div>
@@ -52,7 +52,7 @@ const Membresia = () => {
             state={{ nombre: 'FAN', precio: 'COP 12.900', duracion: '1 mes' }}
             className={styles.boton}
           >
-            Comprar
+            --- Comprar ---
           </Link>
 
         </div>

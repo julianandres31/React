@@ -34,7 +34,7 @@ function App() {
           <Route path="/peliculas" element={<Busqueda />} />
           <Route path="/historial" element={<P_Historial />} />
           <Route path="/guia-de-uso" element={<Guia_uso />} />
-          <Route path="/Membresia" element={<Membresia />} />
+          <Route path="/membresia" element={<Membresia />} />
           <Route path="/detalle-pelicula" element={<DetallePelicula />} />
           <Route path="/formulario" element={<Formulario />} />
         </Routes>
