@@ -29,17 +29,33 @@ function Formulario() {
     <div className={styles.formulario}>
       <h2>Formulario de pago - {plan}</h2>
       <form onSubmit={manejarEnvio}>
-        <label>Nombre completo:
-          <input type="text" name="nombre" required onChange={manejarCambio} />
-        </label>
+        <label htmlFor="nombre">Nombre completo:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+          onChange={manejarCambio}
+        />
 
-        <label>Cédula:
-          <input type="text" name="cedula" required onChange={manejarCambio} />
-        </label>
+        <label htmlFor="cedula">Cédula:</label>
+        <input
+          type="text"
+          id="cedula"
+          name="cedula"
+          required
+          onChange={manejarCambio}
+        />
 
-        <label>Tarjeta :
-          <input type="text" name="tarjeta" required maxLength="16" onChange={manejarCambio} />
-        </label>
+        <label htmlFor="tarjeta">Tarjeta:</label>
+        <input
+          type="text"
+          id="tarjeta"
+          name="tarjeta"
+          maxLength="16"
+          required
+          onChange={manejarCambio}
+        />
 
         <button type="submit">Pagar</button>
       </form>

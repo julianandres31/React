@@ -31,7 +31,7 @@ function Inicio() {
           </p>
           <button onClick={guiaClick}>Guía De Uso</button>
         </div>
-        <button className={style.historial}>
+        <button onClick={irAHistorial}className={style.historial}>
           <FaHistory /> 
           <Link className= {style.a} to= "/Historial"> Historial</Link>
         </button>

@@ -1,7 +1,7 @@
 .membresia {
   text-align: center;
-  padding: 10%;
-  background-color: #0f0f0f;
+  padding: 7.3%; 
+   background-color: #1e1e1e;
   color: white;
 }
 
@@ -27,12 +27,13 @@
 }
 
 .plan {
-  border: 2px solid #00ffd5;
+  border: 2px solid #000000;
+  box-shadow: 0 0 10px #000;
 }
 
 .precio {
   font-size: 1.5rem;
-  color: #00ffd5;
+  color: rgb(0, 255, 21);
   margin: 60px 0;
 }
 

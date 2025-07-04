@@ -25,7 +25,7 @@ const Contacto = () => {
         />
 
         <label htmlFor="reporte">Reporte</label>
-        <textarea
+        <input
           id="reporte"
           rows="6"
           placeholder="[Escribe detalladamente tu reporte del problema emergente]"
