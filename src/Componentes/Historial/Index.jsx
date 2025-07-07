@@ -29,7 +29,8 @@ function Historial() {
         {datosFicticios.map((item, index) => (
           <div key={index} className={style.item}>
             <div className={style.info}>
-              <img src={item.imagen} alt="Miniatura" />
+              <div className={style.imagenes}>
+              </div>
               <div>
                 <strong>{item.titulo}</strong>
                 <p>{item.sinopsis}</p>

@@ -10,8 +10,8 @@ function Login() {
       <div className={style.loginBox}>
         <h2>Iniciar Sesión</h2>
         <form>
-          <label>Nombre de Usuario</label>
-          <input type="text" placeholder="Ingresa tu nombre de usuario" />
+          <label>Correo Electronico</label>
+          <input type="text" placeholder="Ingresa tu correo electronico" />
 
           <label>Contraseña</label>
           <input type="password" placeholder="Ingresa tu contraseña" />
